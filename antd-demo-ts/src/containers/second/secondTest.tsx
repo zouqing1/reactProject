@@ -1,5 +1,5 @@
 import * as React from 'react';
-class SchoolName extends React.Component<any, any> {
+class HelloName extends React.Component<any, any> {
     constructor(props:any) {
         super(props);
         this.state={value: ''};
@@ -18,7 +18,7 @@ class SchoolName extends React.Component<any, any> {
        return (
         <form onSubmit={this.handleSubmit}>
         <label>
-          Name:
+          Name2:
           <input type="text" value={this.state.value} onChange={this.handleChange} />
         </label>
         <input type="submit" value="Submit" />
@@ -27,4 +27,4 @@ class SchoolName extends React.Component<any, any> {
    }
 
 }
-export default SchoolName;
+export default HelloName;

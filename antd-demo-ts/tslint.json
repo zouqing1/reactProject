@@ -5,5 +5,11 @@
       "config/**/*.js",
       "node_modules/**/*.ts"
     ]
+  },
+  "rules": {
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "no-string-literal": false,
+    "no-console": false
   }
 }
