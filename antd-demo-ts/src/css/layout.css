@@ -1,0 +1,15 @@
+.myLogo {
+    font-size: 18px;
+    text-align: center;
+    line-height: 48px;
+    cursor: pointer;
+}
+
+.ant-menu-item .anticon {
+    font-size: 18px;
+}
+
+.myLogo i {
+    color: #08c;
+    padding-right: 2px;
+}

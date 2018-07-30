@@ -5,7 +5,7 @@ const Option = Select.Option;
 class HelloName extends React.Component<any, any> {
   constructor(props:any) {
     super(props);
-    this.state = { visible: false }
+    this.state = { visible: false };
 }
 
   public showModal = () => {
